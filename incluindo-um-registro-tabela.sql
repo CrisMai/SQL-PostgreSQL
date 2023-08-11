@@ -1,4 +1,3 @@
-
 Para inserir um registro na tabela usamos o comando
 INSERT INTO nome_da_tabela e declaramos as colunas e os valores.
 
