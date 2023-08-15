@@ -21,8 +21,11 @@ INSERT INTO aluno (
 ) VALUES (
     'Diogo',
     '12345678901',
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac dui et nisl vestibulum consequat. 
-    Integer vitae magna egestas, finibus libero dapibus, maximus magna. Fusce.',
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac dui et nisl 
+    vestibulum consequat. Integer vitae magna egestas, finibus libero dapibus,
+    maximus magna. Fusce suscipit mi ut dui vestibulum, non vehicula felis fringilla. 
+    Vestibulum eget massa blandit, viverra quam non, convallis libero. 
+    Morbi ut nunc ligula. Duis tristique purus augue, n',
     35,
     100.50,
     1.81,
@@ -36,3 +39,4 @@ SELECT nome,
        idade,
        matriculado_em
     FROM aluno;
+
