@@ -1,0 +1,26 @@
+
+Sintaxe do comando CREATE TABLE
+
+Podemos criar uma tabela temporária, que é removida quando desconectamos do banco. 
+Uma tabela temporária é usada para armazenar dados temporários que podem ser usados 
+em consultas complexas e relatórios. Ela é criada durante a execução da consulta e 
+é excluída automaticamente após o término da sessão do usuário ou da transação. 
+Isso ajuda a melhorar o desempenho e a eficiência das consultas SQL.
+
+Além disso, podemos informar ao comando CREATE TABLE para criar uma tabela somente 
+se ela ainda não existir. Se já existir, não será feito nada.
+Podemos utilizar o CREATE TABLE IF NOT EXISTS para criar uma tabela somente se 
+ela ainda não existir no banco de dados.
+
+
+CREATE TABLE IF NOT EXISTS academico.aluno (
+    id SERIAL PRIMARY KEY;
+    primeiro_nome VARCHAR(255) NOT NULL;
+    ultimo_nome VARCHAR(255) NOT NULL,
+    data_nascimento DATE NOT NULL
+);
+
+
+Essa instrução IF NOT EXISTS permite que não ocorra erro ao tentar criar 
+uma tabela já existente, evitando interrupções na execução de um script maior. 
+
