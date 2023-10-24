@@ -1,0 +1,12 @@
+
+Table vs Column Constraints
+
+Existem as restrições de tabela (Table Constraints) e as restrições 
+de coluna (Column Constraints).
+A diferença entre ambas é bem intuitiva.
+
+Column Constraints se referem a restrições ou informações de uma única coluna. 
+Ex.: Uma chave primária, um campo que deve ser único, um campo que não pode ser nulo, etc.
+
+Table Constraints são informações ou restrições de mais de um campo. Ex.: 
+Chave primária composta, índices compostos, etc.
