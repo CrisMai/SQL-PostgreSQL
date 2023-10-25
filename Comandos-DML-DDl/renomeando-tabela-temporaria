@@ -1,0 +1,21 @@
+
+Renomeando a Tabela Temporária
+
+como podemos renomear a tabela sem perder os dados? Se removermos a tabela 
+com o comando DROP TABLE a e criarmos novamente com CREATE TABLE, perderemos 
+os dados da tabela temporária. 
+Portanto, para alterar o nome da tabela, sem perder os dados, utilizamos o 
+comando ALTER TABLE.
+
+Podemos renomear uma tabela utilizando o comando 
+ALTER TABLE nome_da_tabela RENAME TO novo_nome_da_tabela.
+
+ALTER TABLE a RENAME TO teste
+
+
+Para renomear as colunas de "coluna1" para "primeira coluna" e de 
+"coluna2" para "segunda coluna", podemos utilizar o comando 
+ALTER TABLE nome da tabela RENAME [COLUMN] TO novo nome da coluna
+
+ALTER TABLE teste RENAME coluna1 TO primeira_coluna
+ALTER TABLE teste RENAME coluna2 TO segunda_coluna
