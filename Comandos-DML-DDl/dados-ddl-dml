@@ -1,0 +1,14 @@
+
+Comandos DDL vs DML
+
+Comandos que modificam a estrutura do banco de dados estão agrupados na categoria DDL, 
+que significa data definition language, ou linguagem de definição de dados.
+
+Dados DDL (Data Definition Language) são comandos usados para definir a estrutura e 
+organização dos dados em um banco de dados. Esses comandos permitem criar, modificar 
+ou excluir tabelas, esquemas e bancos de dados.
+
+Dados DML (Data Manipulation Language) são usados para manipular os dados armazenados 
+em um banco de dados. Eles permitem que os usuários insiram, atualizem, removam e 
+consultem informações em uma tabela ou banco de dados. As instruções DML incluem 
+INSERT, UPDATE, DELETE e SELECT.
